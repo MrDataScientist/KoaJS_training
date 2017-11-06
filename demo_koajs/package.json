@@ -1,0 +1,30 @@
+{
+  "name": "demo_koajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "presets": ["env"],
+
+  "keywords": [
+    "koajs",
+    "nodejs",
+    "api",
+    "generators"
+  ],
+  "author": "tarik en nakdi",
+  "license": "ISC",
+  "dependencies": {
+    "co-monk": "^1.0.0",
+    "koa": "^2.3.0",
+    "koa-mount": "^3.0.0",
+    "koa-router": "^7.2.1",
+    "monk": "^6.0.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
+}
